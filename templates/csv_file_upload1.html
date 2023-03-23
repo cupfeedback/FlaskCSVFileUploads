@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>csv_file_upload1</title>
+</head>
+<body>
+<form action="{{ url_for('upload_to_pd_file') }}" method="post" enctype="multipart/form-data">
+<input type="file" name="file" required="required" placeholder="csv file upload">
+    <button type="submit"> SUBMIT </button>
+    </form>
+</body>
+</html>
